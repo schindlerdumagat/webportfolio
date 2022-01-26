@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	background: url(./background-image.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+/*Navigation*/
+
+#my-nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+#my-nav > ul {
+	list-style-type: none;
+}
+
+#my-nav > ul > li > a {
+	text-decoration: none;
+}
+
+#my-nav > ul > li > a:hover {
+	border: 1px solid white;
+}
+
+/*About Me*/
+
+#aboutme img {
+	width: 200px;
+	height: 200px;
+}
+
+/*Project Section*/
+
+.card {
+	width: 18rem;
+}
+
+
