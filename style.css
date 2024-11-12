@@ -346,18 +346,19 @@
 }
 
 .grid-container {
-	display: grid;
+	/* display: grid; */
+	display: flex;
 	gap: 20px;
 	padding: .1% 2% 2% 2%;
-	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .grid-container .card-item {
-	padding: 4%;
+	padding: 30px;
 	background-color: white;
 	align-items: center;
-	width: 50%;
+	width: 500px;
 }
 
 .card-img-top {
@@ -373,6 +374,10 @@
 
 @media screen and (max-width: 1024px) {
 
+	#projects .grid-container .card-item {
+		width: 400px;
+	}
+
 	#projects {
 		padding-top: 6%;
 	}
@@ -384,6 +389,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+	#projects .grid-container .card-item {
+		width: 300px;
+	}
 
 	#projects {
 		padding-top: 8%;
